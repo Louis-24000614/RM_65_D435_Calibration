@@ -1,0 +1,1 @@
+/home/nvidia/Calibration/build/rm_ros_interfaces/rosidl_generator_cpp/rm_ros_interfaces/msg/detail/armcurrentstatus__type_support.hpp

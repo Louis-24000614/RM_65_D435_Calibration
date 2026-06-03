@@ -1,0 +1,7 @@
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-06-03-15-03-07-801468-nvidia-desktop-30649
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [dep_cam_node-1]: process started with pid [30675]
+[dep_cam_node-1] [INFO] [1780470188.272258593] [dep_cam]: Waiting for camera frames...
+[dep_cam_node-1] [INFO] [1780470189.720748445] [dep_cam]: Camera initialized successfully
+[dep_cam_node-1] [INFO] [1780470189.720971293] [dep_cam]: Depth camera ready: vision/raw (bgr8) + vision/depth (16UC1) + vision/cloud at 1.00 Hz (cloud async)
+[dep_cam_node-1] [INFO] [1780470492.209682833] [dep_cam]: Published 300 frames at 1.0 Hz

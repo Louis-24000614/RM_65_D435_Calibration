@@ -1,0 +1,47 @@
+[0.031s] Invoking command in '/home/nvidia/Calibration/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/rm_bringup
+[0.238s] -- The C compiler identification is GNU 11.4.0
+[0.429s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.588s] -- Detecting C compiler ABI info - done
+[0.601s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.606s] -- Detecting C compile features
+[0.609s] -- Detecting C compile features - done
+[0.615s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.793s] -- Detecting CXX compile features
+[0.794s] -- Detecting CXX compile features - done
+[0.804s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.126s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.328s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.511s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.512s] -- Added test 'lint_cmake' to check CMake code style
+[1.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.515s] -- Added test 'xmllint' to check XML markup files
+[1.518s] -- Configuring done
+[1.523s] -- Generating done
+[1.527s] -- Build files have been written to: /home/nvidia/Calibration/build/rm_bringup
+[1.544s] Invoked command in '/home/nvidia/Calibration/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_bringup -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/rm_bringup
+[1.545s] Invoking command in '/home/nvidia/Calibration/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Calibration/build/rm_bringup -- -j8 -l8
+[1.622s] Invoked command in '/home/nvidia/Calibration/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Calibration/build/rm_bringup -- -j8 -l8
+[1.624s] Invoking command in '/home/nvidia/Calibration/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Calibration/build/rm_bringup
+[1.635s] -- Install configuration: "Release"
+[1.635s] -- Execute custom install script
+[1.636s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/launch/rm_65_6f_bringup.launch.py
+[1.651s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/ament_index/resource_index/package_run_dependencies/rm_bringup
+[1.671s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/ament_index/resource_index/parent_prefix_path/rm_bringup
+[1.690s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/environment/ament_prefix_path.sh
+[1.711s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/environment/ament_prefix_path.dsv
+[1.728s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/environment/path.sh
+[1.745s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/environment/path.dsv
+[1.760s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/local_setup.bash
+[1.774s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/local_setup.sh
+[1.792s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/local_setup.zsh
+[1.809s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/local_setup.dsv
+[1.825s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/package.dsv
+[1.840s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/ament_index/resource_index/packages/rm_bringup
+[1.856s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/cmake/rm_bringupConfig.cmake
+[1.872s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/cmake/rm_bringupConfig-version.cmake
+[1.886s] -- Symlinking: /home/nvidia/Calibration/install/rm_bringup/share/rm_bringup/package.xml
+[1.906s] Invoked command in '/home/nvidia/Calibration/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Calibration/build/rm_bringup

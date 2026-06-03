@@ -1,0 +1,199 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nvidia/Calibration/build/camera_vision
+[ 50%] [32mBuilding CXX object CMakeFiles/dep_cam_node.dir/dep_cam.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:544:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  544 |         [01;35m[Kconst[m[K int get_data_size() const
+      |         [01;35m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:1144:60:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1144 |                           [01;35m[Kfrm.get_profile().stream_index() == index[m[K )
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:1153:64:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1153 |                               [01;35m[Kfrm.get_profile().stream_index() == index[m[K &&
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:1184:64:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1184 |                               [01;35m[Kfrm.get_profile().stream_index() == index[m[K )
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:1207:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1207 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_frame.hpp:1229:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1229 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:[m[K In constructor ‘[01m[Krs2::option_value::option_value(rs2_option, rs2::option_value::invalid_t)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:30:85:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krs2_option_value::<anonymous>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   30 |      : _value( new rs2_option_value{ option_id, false, RS2_OPTION_TYPE_COUNT [01;35m[K}[m[K ) {}
+      |                                                                              [01;35m[K^[m[K
+
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:[m[K In constructor ‘[01m[Krs2::option_value::option_value(rs2_option, int64_t)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:33:86:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krs2_option_value::<anonymous>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   33 |        : _value( new rs2_option_value{ option_id, true, RS2_OPTION_TYPE_INTEGER [01;35m[K}[m[K )
+      |                                                                                 [01;35m[K^[m[K
+
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:[m[K In constructor ‘[01m[Krs2::option_value::option_value(rs2_option, float)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:38:84:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krs2_option_value::<anonymous>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   38 |          : _value( new rs2_option_value{ option_id, true, RS2_OPTION_TYPE_FLOAT [01;35m[K}[m[K )
+      |                                                                                 [01;35m[K^[m[K
+
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:[m[K In constructor ‘[01m[Krs2::option_value::option_value(rs2_option, const char*)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:43:85:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krs2_option_value::<anonymous>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   43 |         : _value( new rs2_option_value{ option_id, true, RS2_OPTION_TYPE_STRING [01;35m[K}[m[K )
+      |                                                                                 [01;35m[K^[m[K
+
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:[m[K In constructor ‘[01m[Krs2::option_value::option_value(rs2_option, bool)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_options.hpp:48:86:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Krs2_option_value::<anonymous>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   48 |        : _value( new rs2_option_value{ option_id, true, RS2_OPTION_TYPE_BOOLEAN [01;35m[K}[m[K )
+      |                                                                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp:[m[K In constructor ‘[01m[Krs2::embedded_filter::embedded_filter(std::shared_ptr<rs2_embedded_filter>)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp:1317:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Krs2::embedded_filter::_embedded_filter[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+ 1317 |         std::shared_ptr<rs2_embedded_filter> [01;35m[K_embedded_filter[m[K;
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp:1280:49:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Krs2::options[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+ 1280 |             , options((rs2_options*)filter.get()[01;35m[K)[m[K
+      |                                                 [01;35m[K^[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_processing.hpp:1278:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+ 1278 |         [01;35m[Kembedded_filter[m[K(std::shared_ptr<rs2_embedded_filter> filter)
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:[m[K In constructor ‘[01m[Krs2::depth_stereo_sensor::depth_stereo_sensor(rs2::sensor)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:522:54:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::sensor::sensor(const rs2::sensor&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  522 |         depth_stereo_sensor(sensor s): depth_sensor(s[01;35m[K)[m[K
+      |                                                      [01;35m[K^[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:342:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::sensor[m[K’ has user-provided ‘[01m[Krs2::sensor& rs2::sensor::operator=(const rs2::sensor&)[m[K’
+  342 |         sensor& [01;36m[Koperator[m[K=(const sensor& other)
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_sensor.hpp:493:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krs2::depth_sensor::depth_sensor(rs2::sensor)[m[K’
+  493 |         depth_sensor([01;36m[Ksensor s[m[K)
+      |                      [01;36m[K~~~~~~~^[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:[m[K In constructor ‘[01m[Krs2::auto_calibrated_device::auto_calibrated_device(rs2::device)[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:391:34:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  391 |             : calibrated_device(d[01;35m[K)[m[K
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:150:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  150 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:362:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krs2::calibrated_device::calibrated_device(rs2::device)[m[K’
+  362 |         calibrated_device([01;36m[Kdevice d[m[K)
+      |                           [01;36m[K~~~~~~~^[m[K
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:[m[K In member function ‘[01m[Krs2::device rs2::device_list::front() const[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:1106:59:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+ 1106 |         device front() const { return std::move((*this)[0][01;35m[K)[m[K; }
+      |                                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:150:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  150 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:[m[K In member function ‘[01m[Krs2::device rs2::device_list::back() const[m[K’:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:1109:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+ 1109 |             return std::move((*this)[size() - 1][01;35m[K)[m[K;
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/nvidia/Calibration/src/ros2_packages/Camera_Vision/dep_cam.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/librealsense2/hpp/rs_device.hpp:150:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  150 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable dep_cam_node[0m
+[100%] Built target dep_cam_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/lib/camera_vision/dep_cam_node
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/launch/dep_cam.launch.py
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/config/dep_cam.yaml
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/ament_index/resource_index/package_run_dependencies/camera_vision
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/ament_index/resource_index/parent_prefix_path/camera_vision
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/environment/ament_prefix_path.sh
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/environment/path.sh
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/environment/path.dsv
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/local_setup.bash
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/local_setup.sh
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/local_setup.zsh
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/local_setup.dsv
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/package.dsv
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/ament_index/resource_index/packages/camera_vision
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/cmake/camera_visionConfig.cmake
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/cmake/camera_visionConfig-version.cmake
+-- Symlinking: /home/nvidia/Calibration/install/camera_vision/share/camera_vision/package.xml

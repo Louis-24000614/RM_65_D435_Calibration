@@ -1,0 +1,46 @@
+# Hand-eye calibration configuration
+
+# ChArUco board parameters
+charuco:
+  dictionary: "DICT_5X5_100"
+  squares_x: 12
+  squares_y: 9
+  square_mm: 30.0
+  marker_mm: 22.5
+  legacy_pattern: false
+  min_corners: 20
+
+# ROS2 topics and TF frames
+ros:
+  image_topic: "/vision/raw"
+  base_frame: "base_link"
+  gripper_frame: "Link6"
+
+# Camera intrinsics
+# If intrinsics_json is provided, it takes precedence.
+# Otherwise fx/fy/cx/cy are used. If those are also omitted,
+# the script tries to query RealSense directly.
+camera:
+  intrinsics_json: ""
+  width: 1280
+  height: 720
+  fps: 30
+  fx: ~
+  fy: ~
+  cx: ~
+  cy: ~
+
+# Output paths (relative to Calibration/ root)
+paths:
+  samples_dir: "./data/samples"
+  results_dir: "./data/results"
+  handeye_result: "./data/results/charuco_eye_in_hand.json"
+
+# Preview settings for collection
+preview:
+  enabled: true
+  image_path: "./data/samples/preview.png"
+  period: 0.5
+  print_period: 2.0
+  host: "127.0.0.1"
+  port: 8088

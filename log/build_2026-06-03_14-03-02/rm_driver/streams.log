@@ -1,0 +1,239 @@
+[0.019s] Invoking command in '/home/nvidia/Calibration/build/rm_driver': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/rm_driver
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.218s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.398s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.975s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.151s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.200s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.270s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.277s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.291s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.406s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.410s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.589s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.684s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.798s] -- Looking for pthread.h
+[1.942s] -- Looking for pthread.h - found
+[1.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.090s] -- Found Threads: TRUE  
+[2.198s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.259s] -- Found rm_ros_interfaces: 0.0.0 (/home/nvidia/Calibration/install/rm_ros_interfaces/share/rm_ros_interfaces/cmake)
+[2.296s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.493s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.496s] -- Configured cppcheck include dirs: /home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include;/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver
+[2.496s] -- Configured cppcheck exclude dirs and/or files: 
+[2.499s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.499s] -- Configured cpplint exclude dirs and/or files: 
+[2.500s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.501s] -- Added test 'lint_cmake' to check CMake code style
+[2.502s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.505s] -- Added test 'uncrustify' to check C / C++ code style
+[2.505s] -- Configured uncrustify additional arguments: 
+[2.510s] -- Added test 'xmllint' to check XML markup files
+[2.510s] -- Configuring done
+[2.541s] -- Generating done
+[2.547s] -- Build files have been written to: /home/nvidia/Calibration/build/rm_driver
+[2.582s] Invoked command in '/home/nvidia/Calibration/build/rm_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/rm_driver
+[2.586s] Invoking command in '/home/nvidia/Calibration/build/rm_driver': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Calibration/build/rm_driver -- -j8 -l8
+[2.688s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_driver.dir/src/rm_driver.cpp.o[0m
+[159.774s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:[m[K In function ‘[01m[Kvoid Udp_Robot_Status_Callback(rm_realtime_arm_joint_state_t)[m[K’:
+[159.774s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3671:88:[m[K [01;35m[Kwarning: [m[Kiteration 6 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+[159.774s]  3671 |       Udp_RM_Joint.udp_rm_plus_base_info.pos_up[i] = [01;35m[Kdata.plus_base_info.pos_up[i][m[K;
+[159.774s]       |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[159.775s] 
+[159.775s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3665:26:[m[K [01;36m[Knote: [m[Kwithin this loop
+[159.775s]  3665 |         for(int i = 0; [01;36m[Ki < 10[m[K; i++)
+[159.775s]       |                        [01;36m[K~~^~~~[m[K
+[159.775s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3703:96:[m[K [01;35m[Kwarning: [m[Kiteration 6 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+[159.776s]  3703 | p_RM_Joint.udp_rm_plus_state_info.dof_state[i] = [01;35m[Kdata.plus_state_info.dof_state[i][m[K;
+[159.776s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[159.776s] 
+[159.776s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3701:26:[m[K [01;36m[Knote: [m[Kwithin this loop
+[159.776s]  3701 |         for(int i = 0; [01;36m[Ki < 12[m[K; i++)
+[159.776s]       |                        [01;36m[K~~^~~~[m[K
+[318.938s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3680:94:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.941s]  3680 | Udp_RM_Joint.udp_rm_plus_base_info.pos_up[10+i] = [01;35m[Kdata.plus_base_info.pos_up[10+i][m[K;
+[318.942s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.942s] 
+[318.942s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.943s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.943s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.943s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.943s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:827:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::pos_up[m[K’
+[318.943s]   827 |     int [01;36m[Kpos_up[m[K[6];         // 位置上限,单位：无量纲
+[318.944s]       |         [01;36m[K^~~~~~[m[K
+[318.944s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3681:96:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.944s]  3681 | p_RM_Joint.udp_rm_plus_base_info.pos_low[10+i] = [01;35m[Kdata.plus_base_info.pos_low[10+i][m[K;
+[318.944s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.945s] 
+[318.945s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.945s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.945s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.945s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.946s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:828:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::pos_low[m[K’
+[318.946s]   828 |     int [01;36m[Kpos_low[m[K[6];        // 位置下限,单位：无量纲
+[318.947s]       |         [01;36m[K^~~~~~~[m[K
+[318.947s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3682:98:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.947s]  3682 | RM_Joint.udp_rm_plus_base_info.speed_up[10+i] = [01;35m[Kdata.plus_base_info.speed_up[10+i][m[K;
+[318.947s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.947s] 
+[318.948s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.948s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.948s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.948s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.948s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:831:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::speed_up[m[K’
+[318.949s]   831 |     int [01;36m[Kspeed_up[m[K[6];        // 速度上限,单位：无量纲
+[318.949s]       |         [01;36m[K^~~~~~~~[m[K
+[318.949s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3683:100:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.949s]  3683 | _Joint.udp_rm_plus_base_info.speed_low[10+i] = [01;35m[Kdata.plus_base_info.speed_low[10+i][m[K;
+[318.950s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.950s] 
+[318.950s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.950s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.950s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.951s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.951s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:832:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::speed_low[m[K’
+[318.951s]   832 |     int [01;36m[Kspeed_low[m[K[6];       // 速度下限,单位：无量纲
+[318.951s]       |         [01;36m[K^~~~~~~~~[m[K
+[318.951s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3684:98:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.952s]  3684 | RM_Joint.udp_rm_plus_base_info.force_up[10+i] = [01;35m[Kdata.plus_base_info.force_up[10+i][m[K;
+[318.952s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.952s] 
+[318.952s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.952s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.953s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.953s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.953s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:833:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::force_up[m[K’
+[318.953s]   833 |     int [01;36m[Kforce_up[m[K[6];        // 力上限,单位：0.001N
+[318.954s]       |         [01;36m[K^~~~~~~~[m[K
+[318.954s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3685:100:[m[K [01;35m[Kwarning: [m[Karray subscript 10 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.954s]  3685 | _Joint.udp_rm_plus_base_info.force_low[10+i] = [01;35m[Kdata.plus_base_info.force_low[10+i][m[K;
+[318.954s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.954s] 
+[318.955s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.955s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.955s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.955s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.955s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:834:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::force_low[m[K’
+[318.956s]   834 |     int [01;36m[Kforce_low[m[K[6];       // 力下限,单位：0.001N
+[318.956s]       |         [01;36m[K^~~~~~~~~[m[K
+[318.956s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3680:94:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.956s]  3680 | Udp_RM_Joint.udp_rm_plus_base_info.pos_up[10+i] = [01;35m[Kdata.plus_base_info.pos_up[10+i][m[K;
+[318.956s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.957s] 
+[318.957s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.957s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.957s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.957s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.958s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:827:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::pos_up[m[K’
+[318.958s]   827 |     int [01;36m[Kpos_up[m[K[6];         // 位置上限,单位：无量纲
+[318.958s]       |         [01;36m[K^~~~~~[m[K
+[318.958s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3681:96:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.958s]  3681 | p_RM_Joint.udp_rm_plus_base_info.pos_low[10+i] = [01;35m[Kdata.plus_base_info.pos_low[10+i][m[K;
+[318.959s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.959s] 
+[318.959s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.959s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.959s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.960s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.960s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:828:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::pos_low[m[K’
+[318.960s]   828 |     int [01;36m[Kpos_low[m[K[6];        // 位置下限,单位：无量纲
+[318.960s]       |         [01;36m[K^~~~~~~[m[K
+[318.961s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3682:98:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.961s]  3682 | RM_Joint.udp_rm_plus_base_info.speed_up[10+i] = [01;35m[Kdata.plus_base_info.speed_up[10+i][m[K;
+[318.961s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.961s] 
+[318.961s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.962s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.962s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.962s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.962s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:831:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::speed_up[m[K’
+[318.962s]   831 |     int [01;36m[Kspeed_up[m[K[6];        // 速度上限,单位：无量纲
+[318.963s]       |         [01;36m[K^~~~~~~~[m[K
+[318.963s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3683:100:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.963s]  3683 | _Joint.udp_rm_plus_base_info.speed_low[10+i] = [01;35m[Kdata.plus_base_info.speed_low[10+i][m[K;
+[318.963s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.963s] 
+[318.964s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.964s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.964s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.964s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.964s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:832:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::speed_low[m[K’
+[318.965s]   832 |     int [01;36m[Kspeed_low[m[K[6];       // 速度下限,单位：无量纲
+[318.965s]       |         [01;36m[K^~~~~~~~~[m[K
+[318.965s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3684:98:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.965s]  3684 | RM_Joint.udp_rm_plus_base_info.force_up[10+i] = [01;35m[Kdata.plus_base_info.force_up[10+i][m[K;
+[318.965s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.966s] 
+[318.966s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.966s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.966s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.966s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.967s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:833:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::force_up[m[K’
+[318.967s]   833 |     int [01;36m[Kforce_up[m[K[6];        // 力上限,单位：0.001N
+[318.967s]       |         [01;36m[K^~~~~~~~[m[K
+[318.967s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3685:100:[m[K [01;35m[Kwarning: [m[Karray subscript 11 is above array bounds of ‘[01m[Kint [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.967s]  3685 | _Joint.udp_rm_plus_base_info.force_low[10+i] = [01;35m[Kdata.plus_base_info.force_low[10+i][m[K;
+[318.967s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[318.968s] 
+[318.968s] In file included from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_interface.h:13[m[K,
+[318.968s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_service.h:8[m[K,
+[318.968s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_driver.h:36[m[K,
+[318.968s]                  from [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:16[m[K:
+[318.969s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/include/rm_driver/rm_define.h:834:9:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Krm_plus_base_info_t::force_low[m[K’
+[318.969s]   834 |     int [01;36m[Kforce_low[m[K[6];       // 力下限,单位：0.001N
+[318.969s]       |         [01;36m[K^~~~~~~~~[m[K
+[318.985s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3715:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* __builtin_memcpy(void*, const void*, long unsigned int)[m[K’ forming offset [1364, 1387] is out of the bounds [0, 1364] of object ‘[01m[Kdata[m[K’ with type ‘[01m[Krm_realtime_arm_joint_state_t[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+[318.985s]  3715 |             [01;35m[KUdp_RM_Joint.udp_rm_plus_state_info.force[i] = data.plus_state_info.force[i][m[K;
+[318.985s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[318.985s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:3609:62:[m[K [01;36m[Knote: [m[K‘[01m[Kdata[m[K’ declared here
+[318.986s]  3609 | void Udp_Robot_Status_Callback([01;36m[Krm_realtime_arm_joint_state_t data[m[K)
+[318.986s]       |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[339.251s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:[m[K In member function ‘[01m[Kvoid RmArm::Read_Modbus_TCP_Holding_Registers_Callback(rm_ros_interfaces::msg::Modbustcpreadparams_<std::allocator<void> >::SharedPtr)[m[K’:
+[339.252s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:2335:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kres[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[339.252s]  2335 |     [01;35m[Kif[m[K(res == 0)
+[339.252s]       |     [01;35m[K^~[m[K
+[339.312s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:[m[K In member function ‘[01m[Kvoid RmArm::Read_Modbus_TCP_Input_Registers_Callback(rm_ros_interfaces::msg::Modbustcpreadparams_<std::allocator<void> >::SharedPtr)[m[K’:
+[339.312s] [01m[K/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_driver/src/rm_driver.cpp:2510:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kres[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[339.312s]  2510 |     [01;35m[Kif[m[K(res == 0)
+[339.313s]       |     [01;35m[K^~[m[K
+[438.039s] [100%] [32m[1mLinking CXX executable rm_driver[0m
+[441.048s] [100%] Built target rm_driver
+[441.075s] Invoked command in '/home/nvidia/Calibration/build/rm_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/Calibration/build/rm_driver -- -j8 -l8
+[441.079s] Invoking command in '/home/nvidia/Calibration/build/rm_driver': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/Calibration/build/rm_driver
+[441.098s] -- Install configuration: "Release"
+[441.101s] -- Execute custom install script
+[441.102s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/lib/rm_driver/rm_driver
+[441.123s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/launch/rm_65_driver.launch.py
+[441.142s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/config/rm_65_config.yaml
+[441.161s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/ament_index/resource_index/package_run_dependencies/rm_driver
+[441.180s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/ament_index/resource_index/parent_prefix_path/rm_driver
+[441.201s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/environment/ament_prefix_path.sh
+[441.219s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/environment/ament_prefix_path.dsv
+[441.235s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/environment/path.sh
+[441.255s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/environment/path.dsv
+[441.272s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/local_setup.bash
+[441.289s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/local_setup.sh
+[441.306s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/local_setup.zsh
+[441.321s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/local_setup.dsv
+[441.340s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/package.dsv
+[441.358s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/ament_index/resource_index/packages/rm_driver
+[441.376s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/cmake/rm_driverConfig.cmake
+[441.393s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/cmake/rm_driverConfig-version.cmake
+[441.410s] -- Symlinking: /home/nvidia/Calibration/install/rm_driver/share/rm_driver/package.xml
+[441.436s] Invoked command in '/home/nvidia/Calibration/build/rm_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/Calibration/install/rm_ros_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/Calibration/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/Calibration/build/rm_driver
