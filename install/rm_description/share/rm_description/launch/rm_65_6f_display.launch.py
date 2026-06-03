@@ -1,1 +1,0 @@
-/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_description/launch/rm_65_6f_display.launch.py

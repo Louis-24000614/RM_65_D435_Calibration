@@ -1,1 +1,0 @@
-/home/nvidia/Calibration/src/ros2_packages/ros2_rm_robot/rm_moveit2_config/rm_65_config/launch/real_moveit_demo_6f.launch.py

@@ -1,1 +1,12 @@
 *.install
+
+# ROS2 构建产物
+build/
+install/
+log/
+
+# 其他常见忽略项
+*.pyc
+__pycache__/
+*.log
+.DS_Store

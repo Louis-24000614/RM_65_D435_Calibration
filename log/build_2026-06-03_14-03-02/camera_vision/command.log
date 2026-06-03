@@ -1,6 +1,0 @@
-Invoking command in '/home/nvidia/Calibration/build/camera_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/Camera_Vision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/camera_vision
-Invoked command in '/home/nvidia/Calibration/build/camera_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nvidia/Calibration/src/ros2_packages/Camera_Vision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nvidia/Calibration/install/camera_vision
-Invoking command in '/home/nvidia/Calibration/build/camera_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Calibration/build/camera_vision -- -j8 -l8
-Invoked command in '/home/nvidia/Calibration/build/camera_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/Calibration/build/camera_vision -- -j8 -l8
-Invoking command in '/home/nvidia/Calibration/build/camera_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Calibration/build/camera_vision
-Invoked command in '/home/nvidia/Calibration/build/camera_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/Calibration/build/camera_vision
